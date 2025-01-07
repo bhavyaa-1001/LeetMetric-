@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #010d1c;
+    background-image: linear-gradient(160deg, #042c3f 0%,   #0e0f2e 50%, #020542 100%);
+
+    
+    color: rgb(238, 242, 230);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+      
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(1, 1, 38);
+    padding: 20px;
+    border-radius: 6px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1{
+    font-size: 2rem;
+
+}
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.user-input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#user-input{
+    width: 80%;
+    padding: 0.31rem;
+    border-radius: 5px;
+}
+#search-btn{
+    padding: 0.31rem;
+    border-radius: 5px;
+}
+
+.circle{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #23ad5f;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    columns: white;
+    font-weight: 700;
+    background: conic-gradient(#23ad5f var(--progress-degree, 0%),#042d11 0%);
+    flex-direction: column;
+}
+
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+h4{
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.card{
+    background-color: rgb(184, 105, 8);
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
